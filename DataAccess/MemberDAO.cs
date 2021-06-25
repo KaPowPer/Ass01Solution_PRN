@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace DataAccess
 {
-    public class MemberDAO
+    
     {
 
         //Initialize member list 
