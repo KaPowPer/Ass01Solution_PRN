@@ -284,7 +284,7 @@ namespace MyStoreWinApp
         {
           
             MemberObject member = new MemberObject();
-            List<MemberObject> filterList = memberRepository.GetMemberByCityAndCountry(cboSearchCity.Text, cboSearchCountry.Text);
+            List<MemberObject> filterList = (cboSearchCity.Text, cboSearchCountry.Text);
             try
             {
 
